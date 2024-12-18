@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family:  "Poppins", serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.nav-link  {
+    font-weight: 600;
+    font-size: 16px;
+    /* line-height: 67px; */
+    /* margin-right: 3rem; */
+
+}
+.heroContainer {
+    background-image: url(./assets/images/slider2\ \(1\).jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.heroSection {
+    padding: 18rem 0px;
+}
+.rr i {
+    background-color: #0000ff;
+    padding: 20px;
+    border-radius: 5rem;
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+.service-card {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+  }
+  .service-icon {
+    background-color: #007bff;
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 2rem;
+  }
+  .section-heading {
+    text-align: center;
+    margin: 30px 0;
+  }
+  .vertical-line {
+    /* border-left: 3px solid #0d6efd; */
+    height: 100%;
+    margin-right: 15px;
+}
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #212529;
+}
+.Purpose {
+    border: 2px solid #333;
+}
+.Purpose h4 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.Purpose p {
+    font-size: 17px;
+    margin-left: 1rem;
+}
+.our {
+    border: 2px solid #333;
+}
+.our h4 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.our p {
+    font-size: 17px;
+    margin-left: 1rem;
+}
